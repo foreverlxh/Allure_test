@@ -47,7 +47,8 @@ def test_case_exec(case_info):  # 把这个列表传进来
     # locust  jmeter loadrunner -- 找问题，调优 不是曲线图能调的
 
 
-if __name__ == '__main__':
+"""if __name__ == '__main__':
     # pytest的启动命令
     pytest.main(['test_framework.py','-vs','--alluredir=allure_results'])
     os.system('allure generate allure_results -o 测试报告 --clean')
+"""
